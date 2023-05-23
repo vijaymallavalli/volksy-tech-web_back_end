@@ -1,6 +1,4 @@
-import Currency from './3-currency';
-
-class Pricing {
+ass Pricing {
   constructor(amount, currency) {
     this.amount = amount;
     this.currency = currency;
@@ -11,7 +9,9 @@ class Pricing {
   }
 
   set amount(amount) {
-    if (typeof amount === 'number') this._amount = amount;
+    if (typeof amount =
+
+== 'number') this._amount = amount;
   }
 
   get currency() {
